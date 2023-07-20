@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order Place</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="second-prod">
+        <div class="prod-container">
+          <div class="product-img">
+            <img
+              src="https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg"
+              alt="head-phone"
+            />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Smart Phone</h4>
+            <p class="prodcut-price">$22</p>
+            <button class="react-btn">❤️</button>
+          </div>
+        </div>
+        <div class="product-actions">
+          <button class="trash-btn">❌</button>
+          <div class="btn-actions">
+            <button class="increas-btn">➕</button>
+            <div class="product-number">1</div>
+            <button class="decreas-btn">➖</button>
+          </div>
+        </div>
+      </div>
+      <div class="first-prod">
+        <div class="prod-container">
+          <div class="product-img">
+            <img
+              src="https://www.borofone.com/wp-content/uploads/2022/10/borofone-bo104-phantom-gaming-headphones.jpg"
+              alt="head-phone"
+            />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Blue Headphone</h4>
+            <p class="prodcut-price" id="firstprice">$</p>
+            <button class="react-btn">❤️</button>
+          </div>
+        </div>
+        <div class="product-actions">
+          <button class="trash-btn">❌</button>
+          <div class="btn-actions">
+            <button class="increas-btn" id="add-first">➕</button>
+            <div class="product-number" id="firstIncreas"></div>
+            <button class="decreas-btn" id="delete-first">➖</button>
+          </div>
+        </div>
+      </div>
+      <div class="sub-total__container">
+        <div class="subtotal">
+          <h3>Subtotal</h3>
+          <p id="subTotal">$11.00</p>
+        </div>
+        <div class="shipping">
+          <h3>Shipping</h3>
+          <p>$11.00</p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="total-price">
+          <h3>Total</h3>
+          <p>$1500.00</p>
+        </div>
+        <button class="my-button">Place Order</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
